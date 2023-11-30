@@ -473,26 +473,7 @@ public class project1 extends JFrame{
         JFrame frame = new project1("meatS Admin Mode");
         frame.setVisible(true);
         frame.setSize(new Dimension(1000,800));
-        /*
-        Connection connection;
-        Statement stmt;
-        ResultSet resultSet;
 
-        String url = "jdbc:mysql://127.0.0.1:3306/meats?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-        String username = "root";
-        String password = "root";
-        // once on my mac change password to pvong2pvong3
-
-        try {
-            // connection = DriverManager.getConnection(url, username, password);
-            stmt = Connect();
-            System.out.print("Connected to the database!");
-
-
-        } catch (SQLException e) {
-            throw new IllegalStateException("Cannot connect to database", e);
-        }
-        */
     }
 
 
